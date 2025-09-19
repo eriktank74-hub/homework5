@@ -608,6 +608,14 @@ img {
 
 }
 
+.modal-close-btn:hover {
+    fill: #ffffff;
+}
+
+.modal-close-btn:focus {
+    fill: #ffffff;
+}
+
 .modal-title {
     text-align: left;
     max-width: 300px;
