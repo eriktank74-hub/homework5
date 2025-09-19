@@ -358,9 +358,9 @@ img {
     gap: 24px;
    
 }
-.img-wrapper-container {
+/* .img-wrapper-container {
     padding: 32px 0;
-}
+} */
 .team-name-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -377,8 +377,6 @@ img {
     margin-bottom: 8px;
 }
 .service-portfolio {
-    margin-top: 50px;
-    margin-bottom: 50px;
     flex-wrap: wrap;
     display: flex;
     padding-top: 120px; 
@@ -494,7 +492,7 @@ img {
     text-transform: uppercase;
     margin-bottom: 16px;
     display: inline-block; 
-     background-color: #31d0aa;  
+     
 }
 .footer-text {
     color: #f4f4fd;
@@ -563,4 +561,27 @@ img {
 
 .footer-social-icon {
     fill: var(--gray);
+}
+
+
+/* --------------------MODAL------------------ */
+
+.blackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.modal {
+    min-height: 517px;
+    border-radius: 15px;
+    background-color: #fafafa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
