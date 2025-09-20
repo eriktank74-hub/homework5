@@ -565,7 +565,7 @@ img {
 
 /* --------------------MODAL------------------ */
 
-.blackdrop {
+.blackdrop-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -657,5 +657,5 @@ img {
     color:  #8e8f99;
     display: block;
     margin-bottom: 4px; 
-    
+
 }
