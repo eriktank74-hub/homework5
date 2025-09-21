@@ -565,6 +565,10 @@ img {
 
 .footer-form-title {
     margin-bottom: 16px;
+    font-weight: 500; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
 .footer-form {
@@ -604,7 +608,11 @@ img {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    
+
+}
+
+.send-icon-footer {
+    margin-left: 16px;
 }
 
 /* --------------------MODAL------------------ */
@@ -664,6 +672,15 @@ img {
     background-color: #404bbf;
     border: none; 
 }
+
+.modal-close-btn:hover .modal-close-icon {
+    fill: #ffffff
+}
+
+.modal-close-btn:focus .modal-close-icon {
+    fill: #ffffff
+}
+
 
 .modal-title {
     font-weight: 500; 
