@@ -563,6 +563,10 @@ img {
     fill: var(--gray);
 }
 
+.footer-form-title {
+    margin-bottom: 16px;
+}
+
 
 /* --------------------MODAL------------------ */
 
