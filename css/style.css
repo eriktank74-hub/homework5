@@ -702,19 +702,22 @@ img {
 
 }
 
+.modal-input:focus + .input-icons {
+    fill: #4D5AE5; 
+}
+
 .modal-input:focus {
     border-color: #4D5AE5; 
 }
 
-.modal-input:focus .input-icons {
-    fill: #4D5AE5; 
-}
+
 
 .modal-container-wrapper {
     position: relative; 
+
 }
 
-.checkbox-modal-input:checked {
+.checkbox-modal-input:checked .checkbox-span{
     background-color: #404bbf; 
     border: none;
     fill: #F4F4FD;
