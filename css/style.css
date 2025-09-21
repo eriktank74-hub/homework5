@@ -717,7 +717,7 @@ img {
 
 }
 
-.checkbox-modal-input:checked + .modal-checkbox-label > .checkbox-span {
+.checkbox-modal-input:checked + .checkbox-span {
     background-color: #404bbf; 
     border: none;
     fill: #F4F4FD;
