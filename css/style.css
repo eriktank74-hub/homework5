@@ -2,6 +2,7 @@
 :root {
   --gray: #f4f4fd ;
   --dark-purple: #2E2F42;
+  --white-purple: #4d5ae5; 
 }
 
 body{
@@ -618,10 +619,10 @@ img {
 /* --------------------MODAL------------------ */
 
 .backdrop-container {
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
     z-index: 10;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -698,14 +699,25 @@ img {
 
 .modal-input {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
 
 .modal-input:focus {
     border-color: #4D5AE5; 
 }
 
+.modal-input:focus .input-icons {
+    fill: #4D5AE5; 
+}
+
 .modal-container-wrapper {
     position: relative; 
+}
+
+.checkbox-modal-input:checked {
+    background-color: #404bbf; 
+    border: none;
+    fill: #F4F4FD;
 }
 
 .modal-label-wrapper {
@@ -826,4 +838,8 @@ img {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-link {
+    color: var(--white-purple);
 }
