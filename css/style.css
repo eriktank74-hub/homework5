@@ -749,5 +749,9 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    
+
+}
+
+.modal-link-privacy {
+    color: #4d5ae5;
 }
