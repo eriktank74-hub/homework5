@@ -689,6 +689,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em; 
     color: var(--dark-purple);
+    margin-bottom: 16px;    
 }
 
 .modal-close-icon {
@@ -737,11 +738,11 @@ img {
 }
 
 .modal-label {
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 16px; 
     line-height: 1.17;
     letter-spacing: 0.04em; 
-    color:  (46, 47, 66, 0.4); 
+    color:  #8e8f99;
     display: block;
     margin-bottom: 4px; 
 
