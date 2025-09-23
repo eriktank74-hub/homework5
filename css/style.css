@@ -688,7 +688,6 @@ img {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em; 
-    margin-bottom: 16px; 
     max-width: 300px;
     color: var(--dark-purple);
 }
@@ -739,10 +738,10 @@ img {
 }
 
 .modal-label {
-    font-size: 12px;
+    font-size: 5px;
     line-height: 1.17;
     letter-spacing: 0.04em; 
-    color:  #8e8f99;
+    color:  (46, 47, 66, 0.4); 
     display: block;
     margin-bottom: 4px; 
 
